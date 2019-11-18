@@ -19,10 +19,34 @@
 春宵苦短日高起，从此君王不早朝。
 …………
 
-实验步骤：
-
+实验步骤：先利用代码写成可以调用后台文字的代码，然后将长恨歌储存到后台
+String s1="";
+之后利用分行系统分行。
+for(int i=0;i<s1.length()/16;i++)
+System.out.print(s1.substring(0+16*i,16+16*i)+"\n"); 
+每七个字加一个逗号，因为七是奇数，所以利用if语句除七奇数加逗号偶数加句号
+for(int i=0;i<x.length()/7;i++)
+	      if(i%2==0)
+	       s1=s1+x.substring(0+7*i,7+7*i)+",";
+	      else
+	       s1=s1+x.substring(0+7*i,7+7*i)+"。";
+从后台中查询某字，代码会联系后台查询事先写好的文字也就是长恨歌，之后逐字查找某字
+String y=args[0];
+	    	String z=args[1];
+			separateword(y);		
+	int chaxun = 0;		
+		String s2="";		
+		int index;		
+		while(y.contains(z))
+		{			
+			chaxun++;
+		    index = y.indexOf(z);
+		    s2 = y.substring(index + z.length());		
+		    y= s2;			
 流程图：
 
-运行截图：
+运行截图：！[imag](https://github.com/LIUCHANGYOU6/liuchangyou/blob/master/%E5%88%98%E9%95%BF%E6%9C%89.png)
 
-实验心得：
+实验心得：通过这次实验我熟练掌握了字符串的添加和查找某个字符出现的次数，
+学会了length语句和substring语句，也遇到了一些困难，通过问同学和上网解决之后，更加熟悉了for循环。
+我的长恨歌一开始写在代码里，之后改到后台，知道了可以灵活写java代码。
