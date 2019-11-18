@@ -43,7 +43,7 @@ String y=args[0];
 		    index = y.indexOf(z);
 		    s2 = y.substring(index + z.length());		
 		    y= s2;			
-流程图：
+流程图：！[imag](https://github.com/LIUCHANGYOU6/liuchangyou/blob/master/%E5%88%98%E9%95%BF%E6%9C%89.png)
 
 运行截图：！[imag](https://github.com/LIUCHANGYOU6/liuchangyou/blob/master/%E5%88%98%E9%95%BF%E6%9C%89.png)
 
