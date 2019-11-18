@@ -45,7 +45,7 @@ String y=args[0];
 		    y= s2;			
 流程图：
 
-运行截图：！[image](https://github.com/LIUCHANGYOU6/liuchangyou/blob/master/%E5%88%98%E9%95%BF%E6%9C%89.png)
+运行截图：！[imag](https://github.com/LIUCHANGYOU6/liuchangyou/blob/master/%E5%88%98%E9%95%BF%E6%9C%89.png)
 
 实验心得：通过这次实验我熟练掌握了字符串的添加和查找某个字符出现的次数，
 学会了length语句和substring语句，也遇到了一些困难，通过问同学和上网解决之后，更加熟悉了for循环。
